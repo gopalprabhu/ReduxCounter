@@ -1,0 +1,31 @@
+.counterContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:aqua;
+    flex-direction: column;
+}
+.decrementButton, .incrementButton{
+padding: 20px;
+font-size: 20px;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+margin:15px;
+}
+.decrementButton{
+    background-color: red;
+    color:white;
+}
+
+.incrementButton{
+    background-color: rgb(40, 232, 101);
+    color:white;
+}
+.decrementButton:hover{
+   background-color: rgb(70, 3, 3);
+    }
+
+    .incrementButton:hover{
+        background-color: rgb(3, 94, 47);
+         }
